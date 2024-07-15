@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FriendsRecommendator.UnitTests": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

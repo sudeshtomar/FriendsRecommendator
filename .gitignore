@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FriendsRecommendator/bin/Debug/net8.0
+/.vs/FriendsRecommendator
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/FriendsRecommendator/obj
+/FriendsRecommendator.Service/bin/Debug/netstandard2.1
+/FriendsRecommendator.Service/obj
+/FriendsRecommendator.UnitTests/bin/Debug/net8.0
+/FriendsRecommendator.UnitTests/obj
