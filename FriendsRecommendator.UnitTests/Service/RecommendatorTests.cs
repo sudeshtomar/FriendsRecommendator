@@ -28,7 +28,7 @@ namespace FriendsRecommendator.UnitTests.Service
             _friendsMapRepository.GetFriendsMap().Returns(GetFriendsmap());
 
             var result = _service.GetRecommendations(userId);
-            Assert.NotNull(result.Result);            
+            Assert.NotNull(result.Result);
         }
 
         [Fact]
@@ -39,7 +39,7 @@ namespace FriendsRecommendator.UnitTests.Service
             _friendsMapRepository.GetFriendsMap().Returns(GetFriendsmap());
 
             var result = _service.GetRecommendations(userId);
-            Assert.True(result.Result.Count==0);
+            Assert.True(result.Result.Count == 0);
         }
 
         private List<User>? GetUsers()
